@@ -1,0 +1,21 @@
+ 
+
+name:Hello work
+
+on:
+
+  push:
+
+
+       branches:[ master ]
+
+jobs: 
+
+ hello:
+
+     runs-on: ubuntu-latest
+     steps:
+
+     - name print messge
+     run: echo "Hello github actions"
+
